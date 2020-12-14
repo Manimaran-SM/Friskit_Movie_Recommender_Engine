@@ -111,13 +111,13 @@ h6 {
 		min-width: 100%;
 		min-height: 100%;
 		background-image: url("../static/loader.gif");
-		background-size: 100%;
-		background-position: 100% 100%;
-		background-color: rgba(255, 255, 255, 1);
+		background-size: auto 100%;
+		background-position: center;
+		background-color: rgba(0, 0, 0, 1);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
-		 -o-background-size: cover;
+		-o-background-size: cover;
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;
 	}
@@ -173,7 +173,7 @@ h6 {
 		min-height: 100%;
 		background-image: url("../static/loader.gif");
 		background-size: 100%;
-		background-position: 100% 100%;
+		//background-position: 100% 100%;
 		background-color: rgba(255, 255, 255, 1);
 		background-repeat: no-repeat;
 		-webkit-background-size: cover;
