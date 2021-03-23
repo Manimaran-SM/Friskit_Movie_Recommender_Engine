@@ -1,5 +1,11 @@
 # Friskit: A Movie Recommender Engine 
 
+![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
+![Framework](https://img.shields.io/badge/Framework-Flask-red)
+![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
+![API](https://img.shields.io/badge/API-TMDB-fcba03)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/Manimaran-SM/Friskit_Movie_Recommender_Engine/blob/master/LICENSE)
+
 Friskit recommends movies similar to the movie user searches using conte-based filtering approach and analyses the sentiments on the reviews given by the user for that movie.
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by [TMDB](https://www.themoviedb.org/documentation/api) and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.This project deals with the development of a search engine for Hollywood movies. Instead of searching about a particular movie across all over the internet, our project “Friskit” deals with all the searching more efficiently and returns the relevant information about the particular movie. This project involves building a website where the actual search engine works. Along with just information retrieval it also provides some of the cool features like basic information about the movie, actors, reviews and similar movies for user to watch.
 
