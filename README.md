@@ -1,4 +1,7 @@
-# Friskit: A Movie Recommender Engine 
+<h1 align="center">
+  <img src="https://news-cdn.softpedia.com/images/fitted/340x180/Build-Your-Movie-Collection-with-Discounted-Flicks-from-iTunes.jpg" alt="FRISKIT"><br>
+  Friskit: A Movie Recommender Engine
+</h1>
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
