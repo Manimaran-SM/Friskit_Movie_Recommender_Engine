@@ -9,7 +9,7 @@
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/Manimaran-SM/Friskit_Movie_Recommender_Engine/blob/master/LICENSE)
 
-Friskit recommends movies similar to the movie user searches using conte-based filtering approach and analyses the sentiments on the reviews given by the user for that movie.
+Friskit recommends movies similar to the movie user searches using content-based filtering approach and analyses the sentiments on the reviews given by the user for that movie.
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by [TMDB](https://www.themoviedb.org/documentation/api) and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.This project deals with the development of a search engine for Hollywood movies. Instead of searching about a particular movie across all over the internet, our project “Friskit” deals with all the searching more efficiently and returns the relevant information about the particular movie. This project involves building a website where the actual search engine works. Along with just information retrieval it also provides some of the cool features like basic information about the movie, actors, reviews and similar movies for user to watch.
 
 Check out the live [demo](https://friskit.herokuapp.com/)
@@ -44,7 +44,8 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## Random Forest Classifier:
    > Movie Review Classification is done using the Random Forest Classification algorithm with 2 labelled classes.
-   > Random Forest consists of individual decision tree that operate on ensemble. Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) mean/average prediction of the individual trees. Random decision forests correct for decision trees habit of overfitting to their training set. Random forests generally outperform decision trees, but their accuracy is lowe
+   > Random Forest consists of individual decision tree that operate on ensemble. Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) mean/average prediction of the individual trees. Random decision forests correct for decision trees habit of overfitting to their training set. Random forests generally out perform decision trees, but their accuracy is considerably low.
+
 ![image](https://www.spotx.tv/wp-content/uploads/Figure-1-Random-Forest-Decision-Tree.png)
   
 More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
